@@ -45,7 +45,7 @@ export class MembersService {
 
           // Send email
           const msg = {
-            to: `nelsoniseru08@gmail.com`,
+            to: `${member.email}`,
             from: process.env.VERIFIED_EMAIL,
             subject: 'invoice',
             html: emailContent,
