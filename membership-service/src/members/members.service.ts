@@ -47,7 +47,7 @@ export class MembersService {
           const msg = {
             to: `nelsoniseru08@gmail.com`,
             from: process.env.VERIFIED_EMAIL,
-            subject: 'Verification Code',
+            subject: 'invoice',
             html: emailContent,
           }
 
